@@ -1,0 +1,15 @@
+h1 {
+  display: inline-block; /*글자부분에만 배경색이 채워짐*/
+  font-size:1.4em; /*폰트크기*/
+  background-color:#222; /*배경색*/
+  color:#fff; /*글자색*/
+  padding:10px; /*공간과 내용 사이의 공백*/
+}
+ul {
+  list-style:none; /*리스트의 앞모양 없음*/
+}
+li {
+  font-size:1.2em; /*폰트크기*/
+  line-height:1.5; 
+  color:blue; /*글자색*/
+}

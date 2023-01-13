@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>요소의 위치 조정 2</title>
+  <style>
+    p {
+      width:500px;
+      height:200px;
+      background-color:#eee;
+      border:1px solid #ccc;
+      line-height:2;
+    }
+    #static { position: static; }
+    #relative-1 { position: relative; }
+    #relative-2 {
+      position: relative;
+      left: 100px;
+      top: -50px;
+    }
+    #fixed {
+      width: 100px;
+      height: 100px;
+      background-color: #222;
+      position: fixed;
+      right: 30px;
+      top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <p id="static">Exet adipisicing voluptate aliqua cupidatat nulla. Laboris est sint aute sunt prodient. Do culpa consectetur elit duis laboris reprehenderit incididunt nulla. Pariatur fugiat voluptate ea non amet cupidatat.</p>
+  <p id="relative-1">Lorem ipsum reprehenderit adipisicing exercitation enim velit veniam incididunt sit consectetur elit exercitation. Magna Lorem excepteur occaecat cupidatat sunt proident temppor do nosturd labore cillum non exercitation voluptate.</p>
+  <p id="relative-2">Excepteur voluptate ad irure ipsum duis. Deserunt cupidatat prodiant eu mollit cillum commodo quis quis et ad. Velit id duis enim reprehenderit eu dolor Lorem exepteur exceptuer.</p>
+  <p id="fixed"></p>
+</body>
+</html>
